@@ -17,9 +17,13 @@ class Config(object):
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-  ABOUT_BOT_TEXT = f""" Otaku Guardian Store File """
+  ABOUT_BOT_TEXT = f""" 
+  Otaku Guardian Bot
+  Creator: [Mithun](https://t.me/mithun_naam_toh_suna_hoga)
+  Languague Used: Python
+  """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://t.me/mithun_naam_toh_suna_hoga)"""
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Mithun](https://t.me/mithun_naam_toh_suna_hoga)"""
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\n**Otaku Guardian Bot**
 """
