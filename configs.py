@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6778234587:AAEVLx5PPwnVE1OFBzz45bFgK8OqInZfVfU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "OtakuGuardianBot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002208728458"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://adlinkfly.in")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "adlinkfly.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "57eacc9257ed3fe4cc051005f21c2e88017c8e92")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "7019977613"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://zenistuleech:KALxIvpAixPM9RCs@cluster0.na2qk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
