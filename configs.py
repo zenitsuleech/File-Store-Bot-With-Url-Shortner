@@ -18,7 +18,7 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f""" 
-  Otaku Guardian Bot
+   Otaku Guardian Bot
   Creator: [Mithun](https://t.me/mithun_naam_toh_suna_hoga)
   Languague Used: Python
   """
